@@ -1,0 +1,714 @@
+[E 19:26:12.744 NotebookApp] Exception while loading config file /home/sampson/.jupyter/jupyter_notebook_config.py
+    Traceback (most recent call last):
+      File "/home/sampson/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 562, in _load_config_files
+        config = loader.load_config()
+      File "/home/sampson/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 457, in load_config
+        self._read_file_as_dict()
+      File "/home/sampson/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 489, in _read_file_as_dict
+        py3compat.execfile(conf_filename, namespace)
+      File "/home/sampson/anaconda3/lib/python3.6/site-packages/ipython_genutils/py3compat.py", line 198, in execfile
+        exec(compiler(f.read(), fname, 'exec'), glob, loc)
+      File "/home/sampson/.jupyter/jupyter_notebook_config.py", line 1
+        g Configuration file for jupyter-notebook.
+                      ^
+    SyntaxError: invalid syntax
+[I 19:26:12.751 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 19:26:13.207 NotebookApp] Serving notebooks from local directory: /home/sampson/wang/P1_Facial_Keypoints-master
+[I 19:26:13.207 NotebookApp] 0 active kernels 
+[I 19:26:13.207 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=4589bb3f4bc3b334b2cabb17d1dcbe76595a4da3e111dcaf
+[I 19:26:13.207 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:26:13.207 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=4589bb3f4bc3b334b2cabb17d1dcbe76595a4da3e111dcaf
+Failed to connect to Mir: Failed to connect to server socket: 没有那个文件或目录
+Unable to init server: 不支持 broadway 显示类型：localhost:10.0
+Error: cannot open display: localhost:10.0
+Failed to connect to Mir: Failed to connect to server socket: 没有那个文件或目录
+Unable to init server: 不支持 broadway 显示类型：localhost:10.0
+Error: cannot open display: localhost:10.0
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: iceweasel: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: seamonkey: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: mozilla: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: epiphany: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: konqueror: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: www-browser: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: links2: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: elinks: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: links: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: lynx: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: w3m: not found
+xdg-open: no method available for opening 'http://localhost:8888/tree?token=9361336e1bfd81bf41252b37a428eace8d96956f5e5262bb'
+[I 19:26:28.214 NotebookApp] 302 GET /tree (127.0.0.1) 3.37ms
+[I 19:27:11.795 NotebookApp] 302 GET /?token=4589bb3f4bc3b334b2cabb17d1dcbe76595a4da3e111dcaf (127.0.0.1) 1.29ms
+[W 19:27:18.470 NotebookApp] Notebook 1. Load and Visualize Data.ipynb is not trusted
+[W 19:27:18.499 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180508192612 (127.0.0.1) 6.69ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:27:18.500 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180508192612 (127.0.0.1) 0.90ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:27:18.502 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180508192612 (127.0.0.1) 0.87ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:27:18.525 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180508192612 (127.0.0.1) 1.37ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:27:18.526 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180508192612 (127.0.0.1) 0.87ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:27:18.533 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180508192612 (127.0.0.1) 1.39ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[I 19:27:19.201 NotebookApp] 302 GET /notebooks/images/landmarks_numbered.jpg (127.0.0.1) 0.94ms
+[I 19:27:19.202 NotebookApp] 302 GET /notebooks/images/key_pts_example.png (127.0.0.1) 0.52ms
+[W 19:27:20.215 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180508192612 (127.0.0.1) 4.26ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[I 19:27:34.672 NotebookApp] Kernel started: 4083b786-b943-4384-8b74-7c979c02736d
+[I 19:29:19.190 NotebookApp] Saving file at /1. Load and Visualize Data.ipynb
+[W 19:33:08.509 NotebookApp] Notebook 2. Define the Network Architecture.ipynb is not trusted
+[W 19:33:08.559 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180508192612 (127.0.0.1) 1.19ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:33:08.560 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180508192612 (127.0.0.1) 0.86ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:33:08.562 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180508192612 (127.0.0.1) 0.93ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:33:08.572 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180508192612 (127.0.0.1) 1.63ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:33:08.574 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180508192612 (127.0.0.1) 0.93ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:33:08.593 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180508192612 (127.0.0.1) 1.49ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[I 19:33:09.368 NotebookApp] 302 GET /notebooks/images/feature_map_ex.png (127.0.0.1) 0.92ms
+[W 19:33:09.634 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180508192612 (127.0.0.1) 1.35ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[I 19:33:13.795 NotebookApp] Kernel started: 5b1feee3-9701-4b66-b166-1e92d5a071fd
+[I 19:33:19.256 NotebookApp] Saving file at /1. Load and Visualize Data.ipynb
+[I 19:35:02.754 NotebookApp] Saving file at /models.py
+[I 19:35:04.562 NotebookApp] Saving file at /models.py
+[I 19:35:10.249 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 19:38:04.705 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[W 19:40:18.655 NotebookApp] Notebook 3. Facial Keypoint Detection, Complete Pipeline.ipynb is not trusted
+[W 19:40:18.725 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180508192612 (127.0.0.1) 1.03ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:40:18.734 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180508192612 (127.0.0.1) 1.26ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:40:18.735 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180508192612 (127.0.0.1) 0.85ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:40:18.737 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180508192612 (127.0.0.1) 1.05ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:40:18.738 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180508192612 (127.0.0.1) 0.83ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:40:18.742 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180508192612 (127.0.0.1) 1.41ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[I 19:40:19.162 NotebookApp] 302 GET /notebooks/images/michelle_detected.png (127.0.0.1) 0.54ms
+[I 19:40:19.162 NotebookApp] 302 GET /notebooks/images/haar_cascade_ex.png (127.0.0.1) 0.52ms
+[W 19:40:19.237 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180508192612 (127.0.0.1) 1.10ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[I 19:40:21.732 NotebookApp] Kernel started: b56428e0-afd8-43e3-8fea-8b5e914e14eb
+[I 19:42:19.525 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:44:20.224 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:00:29.488 NotebookApp] Creating new notebook in 
+[I 20:00:29.959 NotebookApp] Kernel started: 77e4a984-e081-4988-be61-424a8b2fe52f
+[W 20:00:29.966 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180508192612 (127.0.0.1) 1.14ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb?kernel_name=python3
+[W 20:00:29.967 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180508192612 (127.0.0.1) 0.89ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb?kernel_name=python3
+[W 20:00:29.968 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180508192612 (127.0.0.1) 0.87ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb?kernel_name=python3
+[W 20:00:29.976 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180508192612 (127.0.0.1) 1.03ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb?kernel_name=python3
+[W 20:00:29.977 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180508192612 (127.0.0.1) 0.93ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb?kernel_name=python3
+[W 20:00:29.986 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180508192612 (127.0.0.1) 1.01ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb?kernel_name=python3
+[W 20:00:30.338 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180508192612 (127.0.0.1) 0.98ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb?kernel_name=python3
+[I 20:02:30.265 NotebookApp] Saving file at /Untitled.ipynb
+[I 20:28:28.316 NotebookApp] Saving file at /1. Load and Visualize Data.ipynb
+[I 20:29:10.357 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:31:10.501 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[W 20:35:57.361 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180508192612 (127.0.0.1) 1.53ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 20:35:57.363 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180508192612 (127.0.0.1) 1.23ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 20:35:57.401 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180508192612 (127.0.0.1) 1.44ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 20:35:57.402 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180508192612 (127.0.0.1) 0.90ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 20:35:57.434 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180508192612 (127.0.0.1) 1.41ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 20:35:57.435 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180508192612 (127.0.0.1) 1.01ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 20:35:57.640 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180508192612 (127.0.0.1) 1.62ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[I 20:35:58.595 NotebookApp] 302 GET /notebooks/images/landmarks_numbered.jpg (127.0.0.1) 0.90ms
+[I 20:35:58.597 NotebookApp] 302 GET /notebooks/images/key_pts_example.png (127.0.0.1) 0.52ms
+[I 20:37:09.637 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:39:09.537 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:41:09.696 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:42:06.317 NotebookApp] Kernel interrupted: 5b1feee3-9701-4b66-b166-1e92d5a071fd
+[I 20:43:09.641 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:47:09.733 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:47:16.790 NotebookApp] Kernel interrupted: 5b1feee3-9701-4b66-b166-1e92d5a071fd
+[I 20:49:09.701 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+THCudaCheck FAIL file=/pytorch/aten/src/THC/generic/THCStorage.cu line=58 error=2 : out of memory
+[C 20:50:04.559 NotebookApp] received signal 15, stopping
+[I 20:50:04.967 NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel 4083b786-b943-4384-8b74-7c979c02736d restarted
+[I 20:50:05.103 NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel 5b1feee3-9701-4b66-b166-1e92d5a071fd restarted
+[I 20:50:05.114 NotebookApp] Shutting down kernels
+[I 20:50:06.820 NotebookApp] Kernel shutdown: 4083b786-b943-4384-8b74-7c979c02736d
+[I 20:50:06.820 NotebookApp] Kernel shutdown: 5b1feee3-9701-4b66-b166-1e92d5a071fd
+[I 20:50:06.820 NotebookApp] Kernel shutdown: b56428e0-afd8-43e3-8fea-8b5e914e14eb
+[I 20:50:06.820 NotebookApp] Kernel shutdown: 77e4a984-e081-4988-be61-424a8b2fe52f
+[E 20:51:46.808 NotebookApp] Exception while loading config file /home/sampson/.jupyter/jupyter_notebook_config.py
+    Traceback (most recent call last):
+      File "/home/sampson/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 562, in _load_config_files
+        config = loader.load_config()
+      File "/home/sampson/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 457, in load_config
+        self._read_file_as_dict()
+      File "/home/sampson/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 489, in _read_file_as_dict
+        py3compat.execfile(conf_filename, namespace)
+      File "/home/sampson/anaconda3/lib/python3.6/site-packages/ipython_genutils/py3compat.py", line 198, in execfile
+        exec(compiler(f.read(), fname, 'exec'), glob, loc)
+      File "/home/sampson/.jupyter/jupyter_notebook_config.py", line 1
+        g Configuration file for jupyter-notebook.
+                      ^
+    SyntaxError: invalid syntax
+[I 20:51:46.816 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 20:51:47.515 NotebookApp] Serving notebooks from local directory: /home/sampson/wang/P1_Facial_Keypoints-master
+[I 20:51:47.515 NotebookApp] 0 active kernels 
+[I 20:51:47.515 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=eeab7f664d3725c73cd3fa634d2901d751610be161054b3b
+[I 20:51:47.515 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:51:47.516 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=eeab7f664d3725c73cd3fa634d2901d751610be161054b3b
+Failed to connect to Mir: Failed to connect to server socket: 没有那个文件或目录
+Unable to init server: 不支持 broadway 显示类型：localhost:10.0
+Error: cannot open display: localhost:10.0
+Failed to connect to Mir: Failed to connect to server socket: 没有那个文件或目录
+Unable to init server: 不支持 broadway 显示类型：localhost:10.0
+Error: cannot open display: localhost:10.0
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: iceweasel: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: seamonkey: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: mozilla: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: epiphany: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: konqueror: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: www-browser: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: links2: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: elinks: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: links: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: lynx: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: w3m: not found
+xdg-open: no method available for opening 'http://localhost:8888/tree?token=c12b391c7d9f4c7532ff5677ca2f212dc77d80d2c0c87cd3'
+[I 20:52:35.628 NotebookApp] 302 GET / (127.0.0.1) 0.67ms
+[I 20:52:35.637 NotebookApp] 302 GET /tree? (127.0.0.1) 1.22ms
+[W 20:52:39.114 NotebookApp] 401 POST /login?next=%2Ftree%3F (127.0.0.1) 1.29ms referer=http://192.168.8.123:18090/login?next=%2Ftree%3F
+[W 20:52:41.374 NotebookApp] 401 POST /login?next=%2Ftree%3F (127.0.0.1) 4.11ms referer=http://192.168.8.123:18090/login?next=%2Ftree%3F
+[W 20:52:56.426 NotebookApp] Couldn't authenticate WebSocket connection
+[W 20:52:56.442 NotebookApp] 403 GET /api/kernels/b56428e0-afd8-43e3-8fea-8b5e914e14eb/channels?session_id=70E07C8DE2B64EFF839CB148272ECDAB (127.0.0.1) 21.92ms referer=None
+[I 20:52:56.830 NotebookApp] 302 GET /?token=eeab7f664d3725c73cd3fa634d2901d751610be161054b3b (127.0.0.1) 1.20ms
+[W 20:52:57.454 NotebookApp] 404 GET /api/kernels/4083b786-b943-4384-8b74-7c979c02736d/channels?session_id=1E6646A0C1D14FA4BA30E5F31ABDD24A (127.0.0.1): Kernel does not exist: 4083b786-b943-4384-8b74-7c979c02736d
+[W 20:52:57.456 NotebookApp] 404 GET /api/kernels/4083b786-b943-4384-8b74-7c979c02736d/channels?session_id=1E6646A0C1D14FA4BA30E5F31ABDD24A (127.0.0.1) 10.90ms referer=None
+[W 20:52:59.735 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180508205146 (127.0.0.1) 2.24ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 20:52:59.736 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180508205146 (127.0.0.1) 0.94ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 20:52:59.769 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180508205146 (127.0.0.1) 1.41ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 20:52:59.780 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180508205146 (127.0.0.1) 1.41ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 20:52:59.781 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180508205146 (127.0.0.1) 0.96ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 20:52:59.782 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180508205146 (127.0.0.1) 0.92ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 20:52:59.837 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180508205146 (127.0.0.1) 1.24ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[I 20:53:01.225 NotebookApp] Kernel started: c2ae904b-d7e2-476f-a721-aa7e47e38fb4
+[I 20:53:01.229 NotebookApp] 302 GET /notebooks/images/feature_map_ex.png (127.0.0.1) 1.98ms
+[I 20:55:01.308 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:55:57.463 NotebookApp] Kernel interrupted: c2ae904b-d7e2-476f-a721-aa7e47e38fb4
+[I 20:57:01.446 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:59:01.420 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:01:01.529 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:01:49.509 NotebookApp] Kernel interrupted: c2ae904b-d7e2-476f-a721-aa7e47e38fb4
+[I 21:03:01.519 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:05:01.365 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:07:01.621 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:09:01.485 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:11:01.382 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:12:48.804 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:13:37.948 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:15:01.381 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:17:03.288 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:19:22.575 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:23:02.162 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:25:01.931 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:27:01.565 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:29:01.538 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:31:01.427 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:33:01.633 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:34:30.215 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:35:01.436 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:37:01.542 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:41:01.428 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:43:01.707 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:43:16.626 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:43:16.988 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:43:17.343 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:43:17.861 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:43:18.043 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:43:18.184 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:44:57.625 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:45:01.767 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[W 19:10:27.779 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180508205146 (127.0.0.1) 1.71ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:10:27.780 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180508205146 (127.0.0.1) 0.88ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:10:27.782 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180508205146 (127.0.0.1) 0.86ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:10:27.797 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180508205146 (127.0.0.1) 1.36ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:10:27.836 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180508205146 (127.0.0.1) 1.44ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:10:27.837 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180508205146 (127.0.0.1) 0.96ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:10:28.043 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180508205146 (127.0.0.1) 2.51ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[I 19:10:29.944 NotebookApp] 302 GET /notebooks/images/michelle_detected.png (127.0.0.1) 2.31ms
+[I 19:10:29.972 NotebookApp] Kernel started: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:10:29.977 NotebookApp] 302 GET /notebooks/images/haar_cascade_ex.png (127.0.0.1) 2.22ms
+THCudaCheck FAIL file=/pytorch/aten/src/THC/THCTensorRandom.cu line=25 error=2 : out of memory
+[I 19:12:32.676 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:12:45.377 NotebookApp] Kernel shutdown: c2ae904b-d7e2-476f-a721-aa7e47e38fb4
+[I 19:14:30.403 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[W 19:16:08.961 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180508205146 (127.0.0.1) 0.98ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:16:08.962 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180508205146 (127.0.0.1) 0.82ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:16:08.999 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180508205146 (127.0.0.1) 1.37ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:16:09.009 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180508205146 (127.0.0.1) 1.44ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:16:09.065 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180508205146 (127.0.0.1) 1.43ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:16:09.087 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180508205146 (127.0.0.1) 1.45ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:16:09.218 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180508205146 (127.0.0.1) 1.36ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[I 19:16:11.753 NotebookApp] Kernel started: 711bc12c-85a9-4023-902b-a88edfe77010
+[I 19:16:11.760 NotebookApp] 302 GET /notebooks/images/feature_map_ex.png (127.0.0.1) 1.71ms
+[I 19:18:30.350 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[W 19:20:00.870 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180508205146 (127.0.0.1) 1.43ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:20:00.871 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180508205146 (127.0.0.1) 0.90ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:20:00.872 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180508205146 (127.0.0.1) 0.83ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:20:00.909 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180508205146 (127.0.0.1) 1.39ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:20:00.934 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180508205146 (127.0.0.1) 1.32ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:20:00.936 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180508205146 (127.0.0.1) 1.05ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:20:01.011 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180508205146 (127.0.0.1) 1.08ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[I 19:20:02.025 NotebookApp] 302 GET /notebooks/images/key_pts_example.png (127.0.0.1) 0.92ms
+[I 19:20:02.042 NotebookApp] Kernel started: eb773b55-f8f0-42f1-bc3f-8bb0c7430a1b
+[I 19:20:02.045 NotebookApp] 302 GET /notebooks/images/landmarks_numbered.jpg (127.0.0.1) 1.96ms
+[I 19:20:30.397 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:20:52.109 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:21:25.254 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:26:30.608 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:27:02.784 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:28:30.357 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:30:30.370 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:31:36.503 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:31:37.900 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:31:38.397 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:31:53.553 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:56.207 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:56.414 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:56.722 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:56.768 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:57.026 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:57.334 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:57.540 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:57.648 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:57.844 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:58.056 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:58.167 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:58.358 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:31:58.562 NotebookApp] Kernel interrupted: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[C 19:32:08.434 NotebookApp] received signal 15, stopping
+[I 19:32:08.450 NotebookApp] Shutting down kernels
+[I 19:32:08.557 NotebookApp] Kernel shutdown: d8933aa3-cb94-446a-a0f3-53ae2752c5f3
+[I 19:32:08.557 NotebookApp] Kernel shutdown: 711bc12c-85a9-4023-902b-a88edfe77010
+[I 19:32:08.557 NotebookApp] Kernel shutdown: eb773b55-f8f0-42f1-bc3f-8bb0c7430a1b
+[E 19:35:47.547 NotebookApp] Exception while loading config file /home/sampson/.jupyter/jupyter_notebook_config.py
+    Traceback (most recent call last):
+      File "/home/sampson/anaconda3/lib/python3.6/site-packages/traitlets/config/application.py", line 562, in _load_config_files
+        config = loader.load_config()
+      File "/home/sampson/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 457, in load_config
+        self._read_file_as_dict()
+      File "/home/sampson/anaconda3/lib/python3.6/site-packages/traitlets/config/loader.py", line 489, in _read_file_as_dict
+        py3compat.execfile(conf_filename, namespace)
+      File "/home/sampson/anaconda3/lib/python3.6/site-packages/ipython_genutils/py3compat.py", line 198, in execfile
+        exec(compiler(f.read(), fname, 'exec'), glob, loc)
+      File "/home/sampson/.jupyter/jupyter_notebook_config.py", line 1
+        g Configuration file for jupyter-notebook.
+                      ^
+    SyntaxError: invalid syntax
+[I 19:35:47.914 NotebookApp] Serving notebooks from local directory: /home/sampson/wang/P1_Facial_Keypoints-master
+[I 19:35:47.914 NotebookApp] 0 active kernels 
+[I 19:35:47.914 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=9d1962519093b45d8be3316f3a39dea9c95b559eeacabb05
+[I 19:35:47.914 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 19:35:47.915 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=9d1962519093b45d8be3316f3a39dea9c95b559eeacabb05
+Failed to connect to Mir: Failed to connect to server socket: 没有那个文件或目录
+Unable to init server: 不支持 broadway 显示类型：localhost:10.0
+Error: cannot open display: localhost:10.0
+Failed to connect to Mir: Failed to connect to server socket: 没有那个文件或目录
+Unable to init server: 不支持 broadway 显示类型：localhost:10.0
+Error: cannot open display: localhost:10.0
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: iceweasel: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: seamonkey: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: mozilla: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: epiphany: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: konqueror: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: www-browser: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: links2: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: elinks: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: links: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: lynx: not found
+/usr/bin/xdg-open: 771: /usr/bin/xdg-open: w3m: not found
+xdg-open: no method available for opening 'http://localhost:8888/tree?token=4e556c9e1d86b230a383f07b347ac6e1870979f2d7aaa5f0'
+[W 19:36:05.218 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180509193547 (127.0.0.1) 5.88ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:36:05.220 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180509193547 (127.0.0.1) 0.90ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:36:05.269 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180509193547 (127.0.0.1) 1.37ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:36:05.270 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180509193547 (127.0.0.1) 0.86ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:36:05.336 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180509193547 (127.0.0.1) 1.47ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:36:05.337 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180509193547 (127.0.0.1) 1.08ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[W 19:36:05.480 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180509193547 (127.0.0.1) 1.12ms referer=http://192.168.8.123:18090/notebooks/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb
+[I 19:36:07.991 NotebookApp] Kernel started: 520c2353-4575-4c83-a8aa-96e9c959187e
+[I 19:36:07.995 NotebookApp] 302 GET /notebooks/images/haar_cascade_ex.png (127.0.0.1) 0.81ms
+[I 19:36:07.996 NotebookApp] 302 GET /notebooks/images/michelle_detected.png (127.0.0.1) 0.58ms
+[W 19:37:30.799 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180509193547 (127.0.0.1) 1.35ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:37:30.800 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180509193547 (127.0.0.1) 0.88ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:37:30.817 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180509193547 (127.0.0.1) 1.11ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:37:30.833 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180509193547 (127.0.0.1) 1.32ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:37:30.850 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180509193547 (127.0.0.1) 1.42ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:37:30.851 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180509193547 (127.0.0.1) 0.83ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[W 19:37:31.089 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180509193547 (127.0.0.1) 1.03ms referer=http://192.168.8.123:18090/notebooks/1.%20Load%20and%20Visualize%20Data.ipynb
+[I 19:37:32.009 NotebookApp] 302 GET /notebooks/images/landmarks_numbered.jpg (127.0.0.1) 0.92ms
+[I 19:37:32.011 NotebookApp] 302 GET /notebooks/images/key_pts_example.png (127.0.0.1) 0.52ms
+[I 19:37:32.018 NotebookApp] Kernel started: 3008f32f-0669-43f1-8e60-30c99b2b9dc7
+OpenCV Error: Assertion failed (depth == CV_8U || depth == CV_16U || depth == CV_32F) in cvtColor, file /home/travis/miniconda/conda-bld/conda_1486587069159/work/opencv-3.1.0/modules/imgproc/src/color.cpp, line 7935
+[I 19:38:08.780 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+OpenCV Error: Assertion failed (depth == CV_8U || depth == CV_16U || depth == CV_32F) in cvtColor, file /home/travis/miniconda/conda-bld/conda_1486587069159/work/opencv-3.1.0/modules/imgproc/src/color.cpp, line 7935
+OpenCV Error: Assertion failed (depth == CV_8U || depth == CV_16U || depth == CV_32F) in cvtColor, file /home/travis/miniconda/conda-bld/conda_1486587069159/work/opencv-3.1.0/modules/imgproc/src/color.cpp, line 7935
+[I 19:40:08.914 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+OpenCV Error: Assertion failed (depth == CV_8U || depth == CV_16U || depth == CV_32F) in cvtColor, file /home/travis/miniconda/conda-bld/conda_1486587069159/work/opencv-3.1.0/modules/imgproc/src/color.cpp, line 7935
+OpenCV Error: Assertion failed (depth == CV_8U || depth == CV_16U || depth == CV_32F) in cvtColor, file /home/travis/miniconda/conda-bld/conda_1486587069159/work/opencv-3.1.0/modules/imgproc/src/color.cpp, line 7935
+[I 19:42:08.724 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[W 19:43:40.136 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180509193547 (127.0.0.1) 1.31ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:43:40.182 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180509193547 (127.0.0.1) 2.05ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:43:40.184 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180509193547 (127.0.0.1) 1.72ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:43:40.187 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180509193547 (127.0.0.1) 1.72ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:43:40.214 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180509193547 (127.0.0.1) 2.06ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:43:40.361 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180509193547 (127.0.0.1) 1.15ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 19:43:40.376 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180509193547 (127.0.0.1) 1.69ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[I 19:43:42.563 NotebookApp] 302 GET /notebooks/images/feature_map_ex.png (127.0.0.1) 2.12ms
+[I 19:43:42.579 NotebookApp] Kernel started: 667363dd-3613-4fea-b038-b72d3524bd33
+OpenCV Error: Assertion failed (ssize.area() > 0) in resize, file /home/travis/miniconda/conda-bld/conda_1486587069159/work/opencv-3.1.0/modules/imgproc/src/imgwarp.cpp, line 3229
+[I 19:46:08.830 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+OpenCV Error: Assertion failed (ssize.area() > 0) in resize, file /home/travis/miniconda/conda-bld/conda_1486587069159/work/opencv-3.1.0/modules/imgproc/src/imgwarp.cpp, line 3229
+OpenCV Error: Assertion failed (ssize.area() > 0) in resize, file /home/travis/miniconda/conda-bld/conda_1486587069159/work/opencv-3.1.0/modules/imgproc/src/imgwarp.cpp, line 3229
+[I 19:48:08.472 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:50:08.388 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:52:08.431 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 19:54:08.578 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:04:08.415 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[W 20:05:04.626 NotebookApp] Notebook 4. Fun with Keypoints.ipynb is not trusted
+[W 20:05:04.657 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180509193547 (127.0.0.1) 1.56ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[W 20:05:04.660 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180509193547 (127.0.0.1) 1.26ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[W 20:05:04.673 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180509193547 (127.0.0.1) 1.60ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[W 20:05:04.679 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180509193547 (127.0.0.1) 1.59ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[W 20:05:04.681 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180509193547 (127.0.0.1) 1.49ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[W 20:05:04.699 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180509193547 (127.0.0.1) 1.49ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[I 20:05:04.981 NotebookApp] 302 GET /notebooks/images/landmarks_numbered.jpg (127.0.0.1) 0.92ms
+[I 20:05:04.996 NotebookApp] 302 GET /notebooks/images/face_filter_ex.png (127.0.0.1) 0.54ms
+[W 20:05:05.805 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180509193547 (127.0.0.1) 3.44ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[I 20:05:08.368 NotebookApp] Kernel started: 90a07096-baeb-4192-a436-752657d0d2de
+[I 20:06:09.360 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:07:05.933 NotebookApp] Saving file at /4. Fun with Keypoints.ipynb
+[I 20:10:08.365 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:12:09.366 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:14:09.398 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:15:42.990 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:17:42.910 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:19:43.281 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:20:09.496 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:24:08.442 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:26:08.456 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:28:08.420 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:30:09.440 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:32:09.625 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:34:08.450 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:36:09.676 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:38:09.524 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:40:08.507 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:40:17.746 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:42:09.492 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:42:56.199 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:43:42.898 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:44:09.443 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:45:43.278 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:48:09.539 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:50:08.480 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:51:42.893 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:54:09.510 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 20:55:42.825 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:57:43.228 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 20:58:08.546 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:00:08.587 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:02:08.531 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:03:58.522 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:04:08.403 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:06:08.509 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+OpenCV Error: Assertion failed (depth == CV_8U || depth == CV_16U || depth == CV_32F) in cvtColor, file /home/travis/miniconda/conda-bld/conda_1486587069159/work/opencv-3.1.0/modules/imgproc/src/color.cpp, line 7935
+OpenCV Error: Assertion failed (scaleFactor > 1 && _image.depth() == CV_8U) in detectMultiScale, file /home/travis/miniconda/conda-bld/conda_1486587069159/work/opencv-3.1.0/modules/objdetect/src/cascadedetect.cpp, line 1323
+[I 21:08:08.406 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:10:08.534 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:12:08.538 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:14:08.488 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:16:08.384 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:16:37.597 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:16:47.470 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:18:08.472 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:19:01.707 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:19:18.140 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:19:42.760 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:20:02.419 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:20:09.516 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:21:42.769 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 21:24:09.459 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:25:32.909 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:26:08.619 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:26:18.250 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:28:08.561 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:30:09.496 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:32:08.423 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:34:08.494 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:36:09.473 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:37:32.245 NotebookApp] Saving file at /1. Load and Visualize Data.ipynb
+[I 21:38:09.572 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:39:32.358 NotebookApp] Saving file at /1. Load and Visualize Data.ipynb
+[I 21:40:08.518 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:41:33.237 NotebookApp] Saving file at /1. Load and Visualize Data.ipynb
+[I 21:42:08.489 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:44:08.458 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:46:08.300 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:48:08.333 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:50:08.397 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:52:08.516 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:54:08.364 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:56:08.486 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 21:58:08.435 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 22:00:09.811 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 22:00:32.721 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 22:02:08.543 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 22:03:43.505 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 22:04:08.537 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 22:05:42.881 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 22:06:09.539 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 22:07:43.507 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 22:08:09.513 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 22:09:32.512 NotebookApp] Saving file at /1. Load and Visualize Data.ipynb
+[W 22:15:02.691 NotebookApp] WebSocket ping timeout after 113667 ms.
+[W 22:15:05.813 NotebookApp] Replacing stale connection: 3008f32f-0669-43f1-8e60-30c99b2b9dc7:9B08A899A5A444FA97E664EF58F0EF48
+[I 09:52:08.478 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 09:54:08.403 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 09:56:08.096 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 09:58:08.296 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:00:08.312 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:02:25.075 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:05:25.907 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:06:29.611 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:08:26.287 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:11:26.989 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:14:29.089 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:17:27.032 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:20:28.095 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:21:32.194 NotebookApp] Saving file at /1. Load and Visualize Data.ipynb
+[I 10:23:28.136 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:29:28.656 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:32:26.078 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:35:27.040 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:41:27.259 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:43:43.634 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 10:44:26.660 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:46:26.250 NotebookApp] 302 GET /notebooks (127.0.0.1) 3.79ms
+[I 10:47:06.243 NotebookApp] Saving file at /models.py
+[I 10:47:26.640 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:48:17.749 NotebookApp] Saving file at /models.py
+[W 10:48:25.807 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180509193547 (127.0.0.1) 2.11ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 10:48:25.808 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180509193547 (127.0.0.1) 0.83ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 10:48:25.810 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180509193547 (127.0.0.1) 1.26ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[W 10:48:25.874 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180509193547 (127.0.0.1) 1.40ms referer=http://192.168.8.123:18090/notebooks/2.%20Define%20the%20Network%20Architecture.ipynb
+[I 10:48:27.575 NotebookApp] 302 GET /notebooks/images/feature_map_ex.png (127.0.0.1) 1.11ms
+[W 10:49:02.927 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180509193547 (127.0.0.1) 2.04ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb
+[W 10:49:02.946 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180509193547 (127.0.0.1) 1.38ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb
+[W 10:49:02.947 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180509193547 (127.0.0.1) 0.96ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb
+[W 10:49:02.949 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180509193547 (127.0.0.1) 0.95ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb
+[W 10:49:02.950 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180509193547 (127.0.0.1) 0.97ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb
+[W 10:49:02.951 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180509193547 (127.0.0.1) 0.95ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb
+[I 10:49:03.035 NotebookApp] Kernel started: f32c8add-5e9a-4478-a1f3-3d84d3e558b0
+[W 10:49:03.038 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180509193547 (127.0.0.1) 1.29ms referer=http://192.168.8.123:18090/notebooks/Untitled.ipynb
+[I 10:49:15.826 NotebookApp] Saving file at /models.py
+[I 10:49:16.537 NotebookApp] Saving file at /models.py
+[I 10:50:29.115 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 10:52:28.082 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 10:53:25.579 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 10:54:28.004 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 10:56:27.902 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 10:58:28.057 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:00:27.532 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:02:25.643 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 11:02:28.095 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:02:58.188 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 11:04:27.989 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:06:27.997 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:08:28.011 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:11:36.408 NotebookApp] Saving file at /models.py
+[I 11:11:36.430 NotebookApp] Saving file at /models.py
+[I 11:11:36.466 NotebookApp] Saving file at /models.py
+[I 11:12:27.786 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:13:56.483 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 11:13:57.201 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 11:14:25.896 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 11:14:27.956 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:15:05.719 NotebookApp] Saving file at /models.py
+[I 11:15:23.020 NotebookApp] Saving file at /models.py
+[I 11:15:23.027 NotebookApp] Saving file at /models.py
+[I 11:15:23.164 NotebookApp] Saving file at /models.py
+[I 11:15:23.423 NotebookApp] Saving file at /models.py
+[I 11:15:23.512 NotebookApp] Saving file at /models.py
+[I 11:15:24.556 NotebookApp] Saving file at /models.py
+[I 11:15:24.960 NotebookApp] Saving file at /models.py
+[I 11:15:24.967 NotebookApp] Saving file at /models.py
+[I 11:15:25.079 NotebookApp] Saving file at /models.py
+[I 11:15:35.202 NotebookApp] Saving file at /models.py
+[I 11:15:39.792 NotebookApp] Saving file at /models.py
+[I 11:16:29.021 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:17:17.302 NotebookApp] Saving file at /models.py
+[I 11:17:17.310 NotebookApp] Saving file at /models.py
+[I 11:17:17.314 NotebookApp] Saving file at /models.py
+[I 11:17:17.492 NotebookApp] Saving file at /models.py
+[I 11:17:25.817 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 11:19:13.564 NotebookApp] Saving file at /models.py
+[I 11:19:13.869 NotebookApp] Saving file at /models.py
+[I 11:19:15.409 NotebookApp] Saving file at /models.py
+[I 11:19:15.463 NotebookApp] Saving file at /models.py
+[I 11:19:56.623 NotebookApp] Saving file at /models.py
+[I 11:19:56.630 NotebookApp] Saving file at /models.py
+[I 11:19:56.725 NotebookApp] Saving file at /models.py
+[I 11:19:58.906 NotebookApp] Saving file at /models.py
+[I 11:19:58.912 NotebookApp] Saving file at /models.py
+[I 11:19:58.918 NotebookApp] Saving file at /models.py
+[I 11:19:58.940 NotebookApp] Saving file at /models.py
+[I 11:19:58.984 NotebookApp] Saving file at /models.py
+[I 11:19:59.319 NotebookApp] Saving file at /models.py
+[I 11:19:59.405 NotebookApp] Saving file at /models.py
+[I 11:20:00.123 NotebookApp] Saving file at /models.py
+[I 11:20:19.941 NotebookApp] Kernel restarted: 667363dd-3613-4fea-b038-b72d3524bd33
+[W 11:20:19.948 NotebookApp] zmq message arrived on closed channel
+[I 11:20:27.975 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:22:28.006 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:24:27.681 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:26:28.456 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:28:27.669 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:30:29.307 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:32:30.055 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:34:27.898 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:35:02.813 NotebookApp] Kernel interrupted: 667363dd-3613-4fea-b038-b72d3524bd33
+[I 11:36:27.901 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:38:28.169 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:40:27.398 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:42:28.463 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[W 11:43:53.636 NotebookApp] 404 GET /nbextensions/facets-jupyter.html.js?v=20180509193547 (127.0.0.1) 23.77ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[W 11:43:53.667 NotebookApp] 404 GET /nbextensions/facets-dist/facets-jupyter.html.js?v=20180509193547 (127.0.0.1) 11.94ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[W 11:43:53.681 NotebookApp] 404 GET /nbextensions/facets-dist/.js?v=20180509193547 (127.0.0.1) 11.40ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[W 11:43:53.695 NotebookApp] 404 GET /nbextensions//usr/share/jupyter/.js?v=20180509193547 (127.0.0.1) 8.33ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[W 11:43:53.702 NotebookApp] 404 GET /nbextensions/facets-dist.js?v=20180509193547 (127.0.0.1) 5.01ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[W 11:43:53.708 NotebookApp] 404 GET /nbextensions//usr/share/jupyter.js?v=20180509193547 (127.0.0.1) 3.79ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[I 11:43:53.893 NotebookApp] 302 GET /notebooks/images/face_filter_ex.png (127.0.0.1) 1.60ms
+[I 11:43:53.894 NotebookApp] 302 GET /notebooks/images/landmarks_numbered.jpg (127.0.0.1) 1.02ms
+[W 11:43:54.499 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20180509193547 (127.0.0.1) 23.81ms referer=http://192.168.8.123:18090/notebooks/4.%20Fun%20with%20Keypoints.ipynb
+[I 11:44:27.717 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:45:59.516 NotebookApp] Saving file at /4. Fun with Keypoints.ipynb
+[I 11:46:38.135 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:48:27.961 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:49:54.172 NotebookApp] Saving file at /4. Fun with Keypoints.ipynb
+[I 11:50:28.882 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:58:19.976 NotebookApp] Saving file at /models.py
+[I 11:58:28.095 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 11:59:26.611 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 12:00:16.986 NotebookApp] Saving file at /models.py
+[I 12:00:16.995 NotebookApp] Saving file at /models.py
+[I 12:00:17.000 NotebookApp] Saving file at /models.py
+[I 12:00:17.006 NotebookApp] Saving file at /models.py
+[I 12:00:17.033 NotebookApp] Saving file at /models.py
+[I 12:00:17.038 NotebookApp] Saving file at /models.py
+[I 12:00:17.043 NotebookApp] Saving file at /models.py
+[I 12:00:17.053 NotebookApp] Saving file at /models.py
+[I 12:00:17.064 NotebookApp] Saving file at /models.py
+[I 12:00:17.069 NotebookApp] Saving file at /models.py
+[I 12:00:17.074 NotebookApp] Saving file at /models.py
+[I 12:00:17.085 NotebookApp] Saving file at /models.py
+[I 12:00:17.118 NotebookApp] Saving file at /models.py
+[I 12:00:17.121 NotebookApp] Saving file at /models.py
+[I 12:00:17.125 NotebookApp] Saving file at /models.py
+[I 12:00:17.128 NotebookApp] Saving file at /models.py
+[I 12:00:18.864 NotebookApp] Saving file at /models.py
+[I 12:00:18.870 NotebookApp] Saving file at /models.py
+[I 12:00:18.876 NotebookApp] Saving file at /models.py
+[I 12:00:18.881 NotebookApp] Saving file at /models.py
+[I 12:00:28.182 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:01:13.647 NotebookApp] Saving file at /models.py
+[I 12:01:13.655 NotebookApp] Saving file at /models.py
+[I 12:01:13.660 NotebookApp] Saving file at /models.py
+[I 12:01:13.664 NotebookApp] Saving file at /models.py
+[I 12:01:13.669 NotebookApp] Saving file at /models.py
+[I 12:01:13.951 NotebookApp] Saving file at /models.py
+[I 12:01:14.975 NotebookApp] Saving file at /models.py
+[I 12:01:14.979 NotebookApp] Saving file at /models.py
+[I 12:02:28.199 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:04:08.238 NotebookApp] Saving file at /models.py
+[I 12:04:08.245 NotebookApp] Saving file at /models.py
+[I 12:04:09.875 NotebookApp] Saving file at /models.py
+[I 12:04:27.661 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:06:29.646 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:08:34.281 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:10:28.193 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:12:27.881 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:14:30.990 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:16:28.322 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:18:34.287 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:23:35.379 NotebookApp] Saving file at /3. Facial Keypoint Detection, Complete Pipeline.ipynb
+[I 12:24:28.504 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:32:02.900 NotebookApp] Saving file at /4. Fun with Keypoints.ipynb
+[I 12:33:50.914 NotebookApp] Saving file at /models.py
+[I 12:33:53.980 NotebookApp] Saving file at /models.py
+[I 12:34:04.057 NotebookApp] Saving file at /4. Fun with Keypoints.ipynb
+[I 12:34:33.369 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:36:27.833 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:38:27.857 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:40:28.108 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:41:21.134 NotebookApp] Kernel interrupted: 667363dd-3613-4fea-b038-b72d3524bd33
+[I 12:41:25.418 NotebookApp] Saving file at /models.py
+[I 12:41:38.055 NotebookApp] Saving file at /models.py
+[I 12:41:38.058 NotebookApp] Saving file at /models.py
+[I 12:41:38.075 NotebookApp] Saving file at /models.py
+[I 12:41:38.080 NotebookApp] Saving file at /models.py
+[I 12:41:38.094 NotebookApp] Saving file at /models.py
+[I 12:41:38.097 NotebookApp] Saving file at /models.py
+[I 12:41:50.353 NotebookApp] Saving file at /models.py
+[I 12:42:35.747 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:44:38.838 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:46:29.720 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:48:29.605 NotebookApp] Saving file at /models.py
+[I 12:48:29.675 NotebookApp] Saving file at /models.py
+[I 12:48:29.699 NotebookApp] Saving file at /models.py
+[I 12:48:30.037 NotebookApp] Saving file at /models.py
+[I 12:48:30.861 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:48:41.481 NotebookApp] Kernel interrupted: 667363dd-3613-4fea-b038-b72d3524bd33
+[I 12:49:15.365 NotebookApp] Saving file at /models.py
+[I 12:49:27.435 NotebookApp] Saving file at /models.py
+[I 12:49:27.608 NotebookApp] Saving file at /models.py
+[I 12:49:28.982 NotebookApp] Saving file at /models.py
+[I 12:49:28.988 NotebookApp] Saving file at /models.py
+[I 12:49:28.994 NotebookApp] Saving file at /models.py
+[I 12:49:28.999 NotebookApp] Saving file at /models.py
+[I 12:49:29.009 NotebookApp] Saving file at /models.py
+[I 12:49:29.017 NotebookApp] Saving file at /models.py
+[I 12:49:29.124 NotebookApp] Saving file at /models.py
+[I 12:50:10.592 NotebookApp] Saving file at /models.py
+[I 12:50:10.651 NotebookApp] Saving file at /models.py
+[I 12:50:12.572 NotebookApp] Saving file at /models.py
+[I 12:50:12.576 NotebookApp] Saving file at /models.py
+[I 12:50:12.580 NotebookApp] Saving file at /models.py
+[I 12:50:12.595 NotebookApp] Saving file at /models.py
+[I 12:50:18.445 NotebookApp] Saving file at /models.py
+[I 12:50:35.834 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:50:43.139 NotebookApp] Saving file at /models.py
+[I 12:50:43.152 NotebookApp] Saving file at /models.py
+[I 12:50:43.255 NotebookApp] Saving file at /models.py
+[I 12:50:43.487 NotebookApp] Saving file at /models.py
+[I 12:52:29.367 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:53:26.991 NotebookApp] Kernel interrupted: 667363dd-3613-4fea-b038-b72d3524bd33
+[I 12:53:37.543 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:54:28.062 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:56:29.382 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 12:58:29.494 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 13:00:27.958 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 13:00:52.878 NotebookApp] Saving file at /models.py
+[I 13:02:28.303 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 13:04:28.761 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 13:06:27.841 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 13:08:29.033 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 13:08:40.472 NotebookApp] Saving file at /models.py
+[I 13:10:28.766 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 13:11:05.894 NotebookApp] Saving file at /models.py
+[I 13:12:34.806 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[I 13:16:29.156 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+THCudaCheck FAIL file=/pytorch/aten/src/THC/generic/THCStorage.cu line=58 error=2 : out of memory
+[I 13:18:39.864 NotebookApp] Saving file at /2. Define the Network Architecture.ipynb
+[C 13:21:22.251 NotebookApp] received signal 15, stopping
+[I 13:21:22.619 NotebookApp] Shutting down kernels
+[I 13:21:22.653 NotebookApp] Kernel shutdown: 520c2353-4575-4c83-a8aa-96e9c959187e
+[I 13:21:22.670 NotebookApp] Kernel shutdown: 3008f32f-0669-43f1-8e60-30c99b2b9dc7
+[I 13:21:22.771 NotebookApp] Kernel shutdown: 667363dd-3613-4fea-b038-b72d3524bd33
+[I 13:21:22.772 NotebookApp] Kernel shutdown: 90a07096-baeb-4192-a436-752657d0d2de
+[I 13:21:22.772 NotebookApp] Kernel shutdown: f32c8add-5e9a-4478-a1f3-3d84d3e558b0
+Error executing Jupyter command 'notbook': [Errno 2] No such file or directory
+Error executing Jupyter command 'notbook': [Errno 2] No such file or directory
